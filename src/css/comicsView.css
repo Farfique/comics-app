@@ -1,0 +1,117 @@
+.navigate_comics{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+.navigation_comics_button{
+    background-color: white;
+    padding: 1rem;
+    text-decoration: none;
+    width: 4rem;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 2px 2px 15px -4px #929191;
+    color: #037167;
+    text-transform: uppercase;
+}
+
+.navigation_comics_button:hover{
+    box-shadow: 1px 1px 12px -2px #646464;
+}
+.navigation_comics_button:active{
+    box-shadow: 1px 1px 10px -2px #313131;
+    font-weight: bolder;
+}
+
+.comicsCard{
+    box-sizing: border-box;
+    background-color: white;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    padding: 3rem;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 10px 10px 40px -10px black;
+}
+.comicsItem {
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    white-space: normal;
+    text-align: center;
+    max-width: 620px;
+    margin: auto;
+}
+
+.date{
+    color: darkgray;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.info {
+    width: max-content;
+    margin: auto;
+}
+
+.responsive_image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyInfo_container {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.permanentLink {
+    white-space: normal;
+}
+
+@media (max-width:760px){
+    #container{
+        padding-top: 0px;
+    }
+    .comicsCard{
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .navigate_comics{
+        gap: 0.3rem;
+    }
+    .navigation_comics_button{
+        width: 100%;
+        font-size: 0.7rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    .title{
+        max-width: 300px;
+        font-size: 1rem;
+    }
+}

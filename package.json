@@ -1,0 +1,29 @@
+{
+  "name": "comics-app",
+  "version": "1.0.0",
+  "description": "This apps shows comics from https://xkcd.com/",
+  "main": "'./src/js/index.js'",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farfique/comics-app.git"
+  },
+  "author": "Farfique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farfique/comics-app/issues"
+  },
+  "homepage": "https://github.com/Farfique/comics-app#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
