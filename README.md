@@ -7,8 +7,13 @@ As a CORS proxy I used https://cors-anywhere.herokuapp.com/corsdemo which requir
 
 What else could be done:
 1) Path to /random seems to be prettier than /{id} 
-2) Catch all errors if something wrong happens with json object or request.
+2) Catch all errors if something goes wrong with json object or request.
 3) Cross-browser check and use of css preprocessors.
 4) Think of better UX for permanent links.
+
+Starting the project:
+  npm install
+  
+  
 
 
