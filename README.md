@@ -12,9 +12,9 @@ What else could be done:
 4) Think of better UX for permanent links.
 
 Starting the project (presumed node.js is installed)
-  npm install
-  npm run build
-  node server.js
+    npm install
+    npm run build
+    node server.js
   
   
 
