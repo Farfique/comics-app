@@ -11,8 +11,10 @@ What else could be done:
 3) Cross-browser check and use of css preprocessors.
 4) Think of better UX for permanent links.
 
-Starting the project:
+Starting the project (presumed node.js is installed)
   npm install
+  npm run build
+  node server.js
   
   
 
