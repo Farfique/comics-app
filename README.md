@@ -1,4 +1,5 @@
 This is a web-app written for a test assignment.
+
 Redesign and implementation of the Comics Web App - https://xkcd.com/
 This should be a part of the interface which is directly connected to comics view (title, navigation, comics, date).
 Vanilla javascript, css and html.
@@ -13,11 +14,9 @@ What else could be done:
 
 Starting the project (presumed node.js is installed)
 
-    `npm install
-    
-    npm run build
-    
-    node server.js`
+    npm install    
+    npm run build   
+    node server.js
   
   
 
